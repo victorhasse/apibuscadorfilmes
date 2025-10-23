@@ -1,16 +1,39 @@
-# React + Vite
+# Api Buscador de Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo front-end simples criado com **React + Vite** que consome uma API de filmes para permitir busca, exibição de detalhes e filtragem de filmes.
 
-Currently, two official plugins are available:
+## 🔍 Visão Geral  
+Este projeto tem como objetivo permitir que usuários pesquisem por filmes, visualizem detalhes como nome, imagem do filme, datas, avaliações/notas, e filtrarem por categorias ou palavra-chave. É ideal para quem quer aprender integração com APIs, React, roteamento, estado, e boas práticas de frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧮 Tecnologias Utilizadas  
+- React  
+- Vite (bundler de desenvolvimento rápido)  
+- JavaScript (ES6+)  
+- CSS para estilos simples  
+- ESLint (configuração básica de lint)  
+- API externa de filmes (https://api.tvmaze.com) 
 
-## React Compiler
+## 🧩 Funcionalidades
+- Pesquisa de filmes por título
+- Listagem de resultados com imagem, título e nota
+- Visualização de detalhes do filme selecionado (sinopse, gênero, data de lançamento…)
+- Layout responsivo (ajustável para desktop/mobile)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Como Executar o Projeto
+```bash
+# Clone o repositório
+git clone https://github.com/victorhasse/apibuscadorfilmes.git
 
-## Expanding the ESLint configuration
+# Acesse a pasta
+cd apibuscadorfilmes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
+- Depois, abra o projeto em http://localhost:517
+
+## 📄 Licença
+- Este projeto está sob a licença MIT.
