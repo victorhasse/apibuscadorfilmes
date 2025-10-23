@@ -1,0 +1,39 @@
+.central-container {
+  /* Centraliza o conteúdo na tela */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column; /* Mantém os elementos em coluna */
+  min-height: 100vh; /* Garante que o container ocupe a altura total da tela */
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  
+  /* Define a largura para que o "margin: auto" funcione */
+  width: 70%; 
+  
+  /* Centraliza a tabela na horizontal */
+  margin: 0 auto; 
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 8px;
+  /* Centraliza o conteúdo (texto) DENTRO das células */
+  text-align: center; 
+}
+
+tr:nth-child(even){background-color: #444444;}
+
+tr:hover {background-color: #4d3838;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* Garante a centralização dos títulos */
+  text-align: center; 
+  background-color: #aa0808;
+  color: white;
+}
